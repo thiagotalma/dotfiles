@@ -19,8 +19,8 @@ autoload -Uz _zinit
 # DOTFILES Home     #
 #####################
 export DOTFILES="$HOME/.dotfiles"
-export ENV TERM=xterm-256color
-export ENV COLORTERM=truecolor
+export TERM=xterm-256color
+export COLORTERM=truecolor
 
 
 #####################
