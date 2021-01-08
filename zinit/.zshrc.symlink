@@ -43,13 +43,6 @@ setopt promptsubst
 # - Loading tmux first, to prevent jumps when tmux is loaded after .zshrc
 # - History plugin is loaded early (as it has some defaults) to prevent empty history stack for other plugins
 zinit lucid for \
-    atinit"
-        export ZSH_TMUX_FIXTERM=true
-        export ZSH_TMUX_AUTOSTART=true
-        export ZSH_TMUX_AUTOCONNECT=true
-        export ZSH_TMUX_DEFAULT_SESSION_NAME='</>'
-    " \
-    https://gist.githubusercontent.com/numToStr/eb8f0d74cca69646df7cdfc773f855c8/raw/6bf87b70b9a0808a5fa29475140904a4487bde8f/tmux.plugin.zsh \
     atinit"HIST_STAMPS=dd.mm.yyyy" \
     OMZL::history.zsh \
 
