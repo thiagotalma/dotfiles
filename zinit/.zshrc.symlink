@@ -153,8 +153,6 @@ zinit wait lucid light-mode as'command' for \
         knu/z \
     atinit'export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"' pick"bin/n" \
         tj/n \
-    from'gh-r' atinit'export PATH="$HOME/.yarn/bin:$PATH"' mv'yarn* -> yarn' pick"yarn/bin/yarn" bpick'*.tar.gz' \
-        yarnpkg/yarn \
 
 zinit wait"1" lucid light-mode from"gh-r" as"command" for \
     bpick'*.tar.gz' atclone'
