@@ -141,8 +141,6 @@ zinit wait lucid for \
 # PROGRAMS          #
 #####################
 
-set -x
-
 zinit wait lucid light-mode as'command' for \
         pick"src/z.interactive.zsh" src"z.sh" \
     knu/z \
