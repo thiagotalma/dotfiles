@@ -37,8 +37,8 @@ setopt autocd autopushd pushdignoredups
 #####################
 export ZSH_AUTOSUGGEST_MANUAL_REBIND=1  # make prompt faster
 export DISABLE_MAGIC_FUNCTIONS=true     # make pasting into terminal faster
-export EDITOR=nvim
-export PAGER=bat
+#export EDITOR=nvim
+#export PAGER=bat
 export DOCKER_BUILDKIT=1 # For enabling buildkit backend in docker and docker-compose
 export COMPOSE_DOCKER_CLI_BUILD=1
 export CGO_ENABLED=1
